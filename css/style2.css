@@ -1,0 +1,329 @@
+body {
+  background-image: url("../IMG/all/bg2.png");
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+}
+h1{
+    color: rgb(24, 1, 1);
+}
+header{
+  text-align: center;
+  padding-top: 110px;
+  padding-bottom: 110px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-image: url("../IMG/all/banner2.png");
+  background-size: cover;
+  z-index: 1;
+  border-radius: 20px;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-top: 20px;
+}
+
+#transperent-box{
+    margin-left: 400px;
+    margin-right: 400px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: rgba(255, 255, 255, 0.5);
+    box-shadow: 0px 4px 4px 0px rgba(247, 244, 244, 0.616);
+    padding-left: 2px;
+    border-radius: 30px;
+    text-align: center;
+}
+#transperent-box:hover{
+    box-shadow: 0px 6px 6px 0px rgba(247, 244, 244, 0.616);
+
+}
+
+#card1 {
+    box-shadow: 0 4px 8px 0 rgba(247, 244, 244, 0.616);
+    width: 550px;
+    border-radius: 80px;
+    position: absolute;
+    top:400px;
+    left: 60px;
+    float: left;
+    margin-top: 40px;
+    height: 300px;
+}
+
+#img-1{
+    height: 800px;
+    width: 800px;
+    border-radius: 50%;
+    position: relative;
+}
+
+.container{
+    position: relative;
+    top: 100px;
+}
+
+#heading-box{
+    position: absolute;
+    top: 150px;
+    left: 400px;
+    width: 450px;
+    height: 450px;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.651);
+    border-radius: 50%;
+}
+
+h3{
+    font-size: 4ch;
+    text-shadow: 2px 2px 4px #c5f518bb;
+    color: aliceblue;
+}
+
+h3:hover {
+    box-shadow: 0 8px 16px 0 rgba(247, 244, 244, 0.616);
+}
+
+.img{
+    height: 300px;
+    width: 550px;
+    position: absolute;
+    border-radius: 80px;
+    filter: blur(1.5px);
+}
+
+h2{
+	color: white;
+}
+
+#h2-1{
+    position: absolute;
+    padding: 40px;
+    margin-left: 40px;
+    margin-top: 40px;
+    border-radius: 30px;
+    text-shadow: 2px 2px 4px #070707bb;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	font-size: 0.7cm;
+	text-align: center;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+#h2-2{
+    position: absolute;
+    margin-left: 180px;
+    padding: 40px;
+    margin-top: 60px;
+    border-radius: 30px;
+    text-shadow: 2px 2px 4px #070707bb;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	font-size: 0.7cm;
+	text-align: center;
+}
+#h2-3{
+    position: absolute;
+    margin-left: 60px;
+    padding: 40px;
+    margin-top: 60px;
+    border-radius: 30px;
+    text-shadow: 2px 2px 4px #070707bb;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	font-size: 0.7cm;
+	text-align: center;
+}
+#card2 {
+    box-shadow: 0 4px 8px 0 rgba(247, 244, 244, 0.616);
+    width: 550px;
+    border-radius: 80px;
+    position: absolute; 
+    top:400px;
+    left: 680px;
+    float: left;
+    margin-top: 40px;
+    height: 300px;
+}
+#card3 {
+    box-shadow: 0 4px 8px 0 rgba(247, 244, 244, 0.616);
+    width: 550px;
+    border-radius: 80px;
+    position: absolute; 
+    left: 350px;
+    top: 770px;
+    float: left;
+    margin-top: 40px;
+    height: 300px;
+}
+
+#card1:hover {
+    box-shadow: 0 8px 16px 0 rgba(247, 244, 244, 0.616);
+}
+#card2:hover {
+    box-shadow: 0 8px 16px 0 rgba(247, 244, 244, 0.616);
+}
+#card3:hover {
+    box-shadow: 0 8px 16px 0 rgba(247, 244, 244, 0.616);
+}
+
+
+p{
+    color: white;
+    font-size: large;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+.gallery img {
+    width: 32.5%;
+    height: 400px;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+#footer1 {
+  background-color: rgba(199, 188, 188, 0.644);
+  padding: 30px;
+  text-align: center;
+  position: relative;
+  margin-top: 800px;
+}
+#footer2 {
+    background-color: rgba(199, 188, 188, 0.644);
+    padding: 30px;
+    text-align: center;
+    position: relative;
+    margin-top: 200px;
+  }
+/*-----Start of Footer-----*/
+.footer{
+  box-sizing: border-box;
+  position: absolute;
+  width: 99%;
+  top: 1265px;
+  margin: 0.5%;
+  height: 650px;
+  background-color: darkblue;
+  z-index: 2;
+}
+
+.fheader{
+  box-sizing: border-box;
+  position: absolute;
+  width: 99%;
+  top: 0;
+  margin: 0.5%;
+  height: 40px;
+  background-color: lightblue;
+  z-index: 2;
+  color: darkblue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 22px;
+}
+
+
+.contact{
+  box-sizing: border-box;
+  position: relative;
+  width: 99%;
+  top: 50px;
+  margin: 0.5%;
+  height: 100px;
+  background-color: seashell;
+  z-index: 2;
+  float: left;
+  padding: 2%;
+  color: darkblue;
+}
+
+.contact a:link ,.contact a:visited,.contact a:active{
+color: darkblue;
+}
+
+.location{
+  box-sizing: border-box;
+  position: relative;
+  width: 99%;
+  top: 50px;
+  margin: 0.5%;
+  height: 200px;
+  background-color: seashell;
+  color: darkblue;
+  z-index: 3;
+  padding: 2%;
+  text-align: center;
+}
+
+
+
+.inquiry{
+  box-sizing: border-box;
+  position: relative;
+  width: 99%;
+  top: 50px;
+  margin: 0.5%;
+  height: 277px;
+  background-color: seashell;
+  color: darkblue;
+  z-index: 2;
+  float: left;
+  padding: 2%;
+}
+
+.inquiry p{
+  font-size: 10px;
+}
+
+.inquiry form{
+  width: 95%;
+}
+
+.subtopic{
+  position: absolute;
+  top: 0;
+  text-align: center;
+  height: 20px;
+ font-size: 15px;
+ font-weight: bolder;
+
+}
+
+
+.subcontent{
+  box-sizing: border-box;
+  position: absolute;
+  width: 98%;
+  top: 30px;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding: 5px;
+ 
+}
+
+.subcontent div{
+  width: 50%;
+  
+  
+}
+
+.subcontent iframe{
+  height: 90px;
+}
+
+.subcontent address{
+  font-size: 15px;
+  position: absolute;
+  align-content: center;
+  top: 120px;
+}
+/*-----End of Footer-----*/
+}
